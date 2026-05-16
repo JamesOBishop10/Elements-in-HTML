@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Container Elements Reference Guide</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HTML Container Elements Reference Guide</h1>
+        <header class="site-header">
+            <div class="wrap">
+                <h1>HTML Container Elements Reference Guide</h1>
+            </div>
+        </header>
+
+        <main>
+            <main class="demo-main">
+                <h2>Main Content Area</h2>
+                <p>This is the primary content of the page, containing the most important information for users.
+                </p>
+
+                <!-- DIV Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;div&gt;</div>
+                        <div class="element-description">Generic container for grouping elements</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When you need a block-level container without semantic meaning</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If a more meaningful element like &lt;section&gt; or
+                                &lt;article&gt; makes more sense</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <div class="demo-div">
+                                This is a div container with some content inside.
+                                <div class="demo-div" style="margin-left: 20px;">
+                                    Nested div for additional grouping
+                                </div>
+                            </div>
+                            <div class="code-snippet">&lt;div&gt;This is a div container&lt;/div&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SPAN Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;span&gt;</div>
+                        <div class="element-description">Generic inline container</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When styling or scripting a small part of text inside a larger
+                                element</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the container should be block-level</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <p>This paragraph contains <span class="demo-span">highlighted text</span> and <span
+                                    class="demo-span">more highlighted text</span> using span elements.</p>
+                            <div class="code-snippet">&lt;p&gt;Text with &lt;span
+                                class="highlight"&gt;highlighted&lt;/span&gt;
+                                content&lt;/p&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;section&gt;</div>
+                        <div class="element-description">Represents a section of content</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When the content groups related elements into a distinct section
+                            </div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the grouping doesn't contribute to document structure
+                            </div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <section class="demo-section">
+                                <h3>About Our Services</h3>
+                                <p>This section contains information about our company services and offerings.</p>
+                            </section>
+                            <div class="code-snippet">&lt;section&gt;&lt;h2&gt;Section Title&lt;/h2&gt;&lt;p&gt;Section
+                                content...&lt;/p&gt;&lt;/section&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ARTICLE Element -->
+                <div class="element-showcase">
+                    <h2 class="element-header">Article Element</h2>
+                    <div class="element-header">
+                        <div class="element-name">&lt;article&gt;</div>
+                        <div class="element-description">Represents a standalone piece of content</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When the content could be independently distributed (e.g., blog
+                                post, news
+                                article)</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the content doesn't stand alone</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <article class="demo-article">
+                                <h3>Understanding HTML5 Semantics</h3>
+                                <p>This article explains the importance of semantic HTML elements in modern web
+                                    development...
+                                </p>
+                                <p><small>Published: June 10, 2025</small></p>
+                            </article>
+                            <div class="code-snippet">&lt;article&gt;&lt;h2&gt;Article Title&lt;/h2&gt;&lt;p&gt;Article
+                                content...&lt;/p&gt;&lt;/article&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ASIDE Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;aside&gt;</div>
+                        <div class="element-description">Sidebar content related to the main content</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When including tangential or supplementary info</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the content is part of the main flow of information
+                            </div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <aside class="demo-aside">
+                                <h4>Did you know?</h4>
+                                <p>HTML5 introduced semantic elements to improve document structure and accessibility.
+                                </p>
+                            </aside>
+                            <div class="code-snippet">&lt;aside&gt;&lt;h3&gt;Related Info&lt;/h3&gt;&lt;p&gt;Sidebar
+                                content...&lt;/p&gt;&lt;/aside&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HEADER Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;header&gt;</div>
+                        <div class="element-description">Container for introductory content</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When including navigation, branding, or introductory info for a
+                                section or
+                                document</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If it's not introductory content</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <header class="demo-header">
+                                <h2>Website Header</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Ipsa rem perferendis ad eaque totam, voluptas quod nihil modi iusto optio tempora
+                                    sequi
+                                    fugit nesciunt quis eius iure dolorum possimus veritatis?</p>
+                            </header>
+                            <div class="code-snippet">&lt;header&gt;&lt;h1&gt;Site
+                                Title&lt;/h1&gt;&lt;nav&gt;...&lt;/nav&gt;&lt;/header&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOOTER Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;footer&gt;</div>
+                        <div class="element-description">Container for closing content or metadata</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When including author details, copyright, related links at the end
+                                of a
+                                document or section</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the content belongs elsewhere in the layout</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <footer class="demo-footer">
+                                <p>&copy; 2025 HTML Reference Guide. All rights reserved.</p>
+                                <p>Contact: info@example.com</p>
+                            </footer>
+                            <div class="code-snippet">&lt;footer&gt;&lt;p&gt;&copy; 2025 Company
+                                Name&lt;/p&gt;&lt;/footer&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NAV Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;nav&gt;</div>
+                        <div class="element-description">Holds navigation links</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When grouping main site navigation links</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the links are just inline, or not part of a major
+                                navigation
+                                system</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+                            <nav class="demo-nav">
+                                <a href="#home">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#services">Services</a>
+                                <a href="#contact">Contact</a>
+                            </nav>
+                            <div class="code-snippet">&lt;nav&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;a
+                                href="#about"&gt;About&lt;/a&gt;&lt;/nav&gt;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAIN Element -->
+                <div class="element-showcase">
+                    <div class="element-header">
+                        <div class="element-name">&lt;main&gt;</div>
+                        <div class="element-description">Holds the central content of the page</div>
+                    </div>
+                    <div class="element-content">
+                        <div class="usage-section">
+                            <div class="usage-title">When to use:</div>
+                            <div class="usage-text">When marking content that is the main focus of the document</div>
+                        </div>
+                        <div class="usage-section">
+                            <div class="usage-title avoid-title">Avoid when:</div>
+                            <div class="usage-text avoid-text">If the content is supplementary</div>
+                        </div>
+                        <div class="example-container">
+                            <div class="example-label">Live Example</div>
+            </main>
+            <footer class="site-footer" role="contentinfo">
+                <div class="wrap">
+                    <p>&copy; <time datetime="2025-08-25">2025</time> HTML Reference Guide</p>
+                </div>
+            </footer>
+</body>
+
+</html>
